@@ -1,0 +1,275 @@
+/*
+* {border:1px solid}
+*/
+
+
+/*img {
+  max-width: 100%;
+  max-height: 100%;
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
+
+* { padding: 0; margin: 0;}
+
+body {font-family: 'Lato', sans-serif; letter-spacing: 1px;} 
+
+header {
+    text-align: justify;
+    width:100%;
+    background-color: green;
+    position:absolute;
+} 
+
+header img {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    max-width: 35%;
+    float:left;
+}
+
+nav { width: 50%; float: right; margin-top: 20px; margin-right:20px; }
+
+nav ul{
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    list-style: none;   
+}
+
+nav li{
+    margin-top: 9px;    
+    float: left;
+    padding-left: 21px;
+}
+
+nav li a { color: white; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+
+nav li a:hover { color: #fff; opacity:1;  }
+
+
+@media screen and (max-width: 720px){
+     
+    header {
+        height: auto;
+    }
+     
+    header > div,
+    header > div h1,
+    header nav {
+        height: auto;
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+     }
+
+#container{
+	background-color: white;
+	width: 90%;
+
+	border-radius: 10px;
+	margin:auto;
+	overflow: auto;
+	padding-bottom:10px;
+	text-align:center;
+	float:center;
+}
+
+#section1 {
+    background: white 50% 0 no-repeat fixed;
+    margin: auto;
+    padding: 10% 40px 5% 40px;
+    background-size: auto;
+}
+
+#divider{
+	border-bottom: solid 4px #05553a;
+	position:relative;
+	text-align:center;
+}
+
+#memberdivider{
+	
+	overflow:hidden;
+	width:40%;
+	position:relative;
+	text-align:right;
+	float:center;
+	display: inline-block;
+	margin:0px;
+	padding:0px;
+}
+
+#group{
+	display:inline;
+	text-align:center;
+	position:relative;}
+
+#group img{
+	border-radius: 10px 10px;
+	overflow:hidden;
+	height: 390px;
+	padding-bottom:10px;
+	padding-top: 10px;
+
+	}
+
+#newsbox{
+	
+	overflow:hidden;
+	height:390px;
+	/*border:5px solid black;*/
+	width:300px;
+	position:relative;
+	display:inline-block;
+	
+}
+
+#newsbox ul{
+	padding:2px;
+	padding-top: 0px;
+	list-style-position: inside;
+	list-style-type:square;
+	margin:5px;
+	text-align:left;
+}
+
+#newsbox li{
+	font-size:0.75em;
+	padding:2px;
+}
+
+#footer p{
+	text-align:center;
+	font-size:1em;}
+
+#image img{
+	width:40%;
+	float:left;
+	margin: 30px;
+	max-height:100%;}
+
+#memberinfo {
+	width:30%;
+	float:right;
+	margin:30px;
+	text-align:right;
+}
+
+#imageflip img{
+	width:20%;
+	float:left;
+	margin: 30px;}
+
+#memberinfoflip {
+	width:50%;
+	float:left;
+	margin:30px;}
+
+#memberinfoflip {	
+	text-align:left;}
+
+
+#contactinfo p{
+	text-align:right;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+}
+
+#awards {
+	text-align:left;
+	float:left;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left: 20px;
+}
+#divider ol li {
+	padding: 5px;
+	text-align:justify;
+}
+
+#divider ol {
+	margin: 10px;
+}
+#divider ol li a {
+	text-decoration:none;
+}
+
+#linkbox {
+	float:left;
+	text-decoration:none;
+	text-align:left;
+	width:20%;
+	margin-left:20px;
+}
+#linkbox ul{
+	list-style-type:none;
+}
+
+#linkbox ul li {
+	text-align:left;
+	padding-top:5px;
+}
+#linkbox ul li a:visited {
+	color:blue;
+}
+#linkbox h2 {
+	text-align:center;
+}
+
+#chapterlinks img {
+	height:150px;
+}
+#chapterlinks {
+	text-decoration:none;
+	}
+
+#chapterlinks ul{
+	list-style-type: none;
+	width:auto;
+	margin-top:20px;
+	clear:both;
+	display:inline-block;}
+
+#chapterlinks li{
+	border: 2px solid #000000;
+	font-family: Verdana, sans-serif;
+	font-weight:bold;
+	border-radius: 10px 5px;
+	background-color: #002058;
+    padding: 10px;
+	float:left;
+	text-align:center;
+	position:relative;
+	margin:2px;}
+
+#chapterlinks a{
+	text-decoration:none;
+	color:#ffda27;
+	display: block;}
+
+#speciallinks{
+	margin:auto;
+	margin-left:30px;
+	width:70%;
+	overflow:auto;
+	padding:10px;
+	text-align:center;
+	vertical-align:left;
+	clear:both;
+	float:left;
+}
+#speciallinksinfo1 img{
+	float:left;
+	width:200px;
+}
+
+#speciallinksinfo2 {
+	float:left;
+	position:relative;
+	width:300px;
+}
+td {text-align:left;}
